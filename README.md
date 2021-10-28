@@ -8,7 +8,7 @@ The following process was undertaken to complete the ETL of this database.
 
 <h3>Extract:</h3>
 
-The following four CSV’s were extracted from sources as defined below. Please refer to the Resources folder for these documents. 
+The following four CSV’s were extracted from sources as defined below. Please refer to the Raw Data folder for these documents. 
 1.	DestinationData2020.csv - https://www.education.vic.gov.au/about/research/pages/ontrack.aspx?Redirect=1
 
 2.	dv279-schoollocations2019.csv - www.education.vic.gov.au/Documents/about/research/datavic/dv279-schoollocations2019.csv
