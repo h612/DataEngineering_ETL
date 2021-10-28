@@ -16,23 +16,23 @@ The following four CSV’s were extracted from sources as defined below. Please 
 4.	salary.csv - https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/personal-income-australia/latest-release
 
 <h3>Transform:</h3>
+We have pre processed data to amke it load ready, as detailed below:
 
-Pre-processing:
-1.	DestinationData
+<h4>1.	DestinationData</h4>
  -	The unnecessary top 3 rows were dropped
  -	Columns were relabeled appropriately
  -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)
  -	Duplicate school names were dropped, keeping only the first school by that name
  -	The cleaned dataframe was saved as a new csv
 
-2.	Salary
+<h4>2.	Salary</h4>
   -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. 
   -	Columns that were not required were removed by filtering to just the required columns
   -	NA values were dropped
   -	Columns were re-named and the index reset
   -	The cleaned dataframe was saved as a new csv
 
-3.	LGA Postcode mappings
+<h4>3.	LGA Postcode mappings</h4>
   -	Columns were re labelled
   -	NA values were dropped
   -	Duplicates were dropped
