@@ -43,4 +43,4 @@ Once the transformed csv’s were created, a database and the corresponding tabl
 
 ![picture alt](https://user-images.githubusercontent.com/87689345/139240930-76bc3a1e-a4d2-431b-b72f-69f0e725e51b.png)
 
-
+Attempts were subsequently made to join the loaded tables within the dataframe. However further work is required to execute this successfully. 
