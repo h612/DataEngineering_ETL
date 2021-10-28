@@ -16,7 +16,7 @@ The following four CSV’s were extracted from sources as defined below. Please 
 4.	salary.csv - https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/personal-income-australia/latest-release
 
 <h3>Transform:</h3>
-We have pre processed data to amke it load ready, as detailed below:
+We have pre-processed data to make it load ready, as detailed below:
 
 <h4>1.	DestinationData</h4>
  -	The unnecessary top 3 rows were dropped
