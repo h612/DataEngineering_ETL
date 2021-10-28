@@ -19,23 +19,23 @@ The following four CSV’s were extracted from sources as defined below. Please 
 
 Pre-processing:
 1.	DestinationData
- a.	The unnecessary top 3 rows were dropped
- b.	Columns were relabeled appropriately
- c.	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)
- d.	Duplicate school names were dropped, keeping only the first school by that name
- e.	The cleaned dataframe was saved as a new csv
+ -	The unnecessary top 3 rows were dropped
+ -	Columns were relabeled appropriately
+ -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)
+ -	Duplicate school names were dropped, keeping only the first school by that name
+ -	The cleaned dataframe was saved as a new csv
 
 2.	Salary
-  a.	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. 
-  b.	Columns that were not required were removed by filtering to just the required columns
-  c.	NA values were dropped
-  d.	Columns were re-named and the index reset
-  e.	The cleaned dataframe was saved as a new csv
+  -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. 
+  -	Columns that were not required were removed by filtering to just the required columns
+  -	NA values were dropped
+  -	Columns were re-named and the index reset
+  -	The cleaned dataframe was saved as a new csv
 
 3.	LGA Postcode mappings
-  a.	Columns were re labelled
-  b.	NA values were dropped
-  c.	Duplicates were dropped
+  -	Columns were re labelled
+  -	NA values were dropped
+  -	Duplicates were dropped
 
 <h3>Load</h3>
   
