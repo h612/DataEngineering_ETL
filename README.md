@@ -39,8 +39,10 @@ We have pre-processed data to make it load ready, as detailed below:
 
 <h3>Load</h3>
   
-Once the transformed csv’s were created, a database and the corresponding tables with the required columns were created using SQL in pgAdmin, after developing and mapping out the table schema. 
+Once the transformed csv’s were created, a database and the corresponding tables with the required columns were created using SQL in pgAdmin, after developing and mapping out the table schema. Confirmed data has been added by querying the customer_name table using `pd.read_sql_query('select * from customer_name', con=engine).head()`
 
 ![picture alt](https://user-images.githubusercontent.com/87689345/139240930-76bc3a1e-a4d2-431b-b72f-69f0e725e51b.png)
 
 Attempts were subsequently made to join the loaded tables within the dataframe. However further work is required to execute this successfully. 
+
+The final database does contain the necessary information to compare school leaver outcomes with the median salaries of their respective LGA's. 
