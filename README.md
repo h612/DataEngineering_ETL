@@ -19,26 +19,26 @@ The following four CSV’s were extracted from sources as defined below. Please 
 We have pre-processed data to make it load ready, as detailed below:
 
 <h4>1.	DestinationData</h4>
--Data is preprocesses via **DataPreProcessing.ipynb**
-  -	The unnecessary top 3 rows were dropped
-  -	Columns were relabeled appropriately
-  -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)
-  -	Duplicate school names were dropped, keeping only the first school by that name
-  -	The cleaned dataframe was saved as a new csv
+-Data is preprocesses via **DataPreProcessing.ipynb**</br>
+  -	The unnecessary top 3 rows were dropped</br>
+  -	Columns were relabeled appropriately</br>
+  -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)</br>
+  -	Duplicate school names were dropped, keeping only the first school by that name</br>
+  -	The cleaned dataframe was saved as a new csv</br>
 
 <h4>2.	Salary</h4>
--Data is preprocesses via **DataPreProcessingSalary.ipynb**
-   -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. 
-   -	Columns that were not required were removed by filtering to just the required columns
-   -	NA values were dropped
-   -	Columns were re-named and the index reset
-   -	The cleaned dataframe was saved as a new csv
+-Data is preprocesses via **DataPreProcessingSalary.ipynb**</br>
+   -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. </br>
+   -	Columns that were not required were removed by filtering to just the required columns</br>
+   -	NA values were dropped</br>
+   -	Columns were re-named and the index reset</br>
+   -	The cleaned dataframe was saved as a new csv</br>
 
 <h4>3.	LGA Postcode mappings</h4>
--Data is preprocesses via **DataPreprocessingPostCodeLGA.ipynb**
-   -	Columns were re labelled
-   -	NA values were dropped
-   -	Duplicates were dropped
+-Data is preprocesses via **DataPreprocessingPostCodeLGA.ipynb**</br>
+   -	Columns were re labelled</br>
+   -	NA values were dropped</br>
+   -	Duplicates were dropped</br>
 
 <h3>Load</h3>
   
