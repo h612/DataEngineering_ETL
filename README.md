@@ -19,29 +19,32 @@ The following four CSV’s were extracted from sources as defined below. Please 
 We have pre-processed data to make it load ready, as detailed below:
 
 <h4>1.	DestinationData</h4>
- -	The unnecessary top 3 rows were dropped
- -	Columns were relabeled appropriately
- -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)
- -	Duplicate school names were dropped, keeping only the first school by that name
- -	The cleaned dataframe was saved as a new csv
-
-<h4>2.	Salary</h4>
-  -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. 
-  -	Columns that were not required were removed by filtering to just the required columns
-  -	NA values were dropped
-  -	Columns were re-named and the index reset
+-Data is preprocesses via **DataPreProcessing.ipynb**
+  -	The unnecessary top 3 rows were dropped
+  -	Columns were relabeled appropriately
+  -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)
+  -	Duplicate school names were dropped, keeping only the first school by that name
   -	The cleaned dataframe was saved as a new csv
 
+<h4>2.	Salary</h4>
+-Data is preprocesses via **DataPreProcessingSalary.ipynb**
+   -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. 
+   -	Columns that were not required were removed by filtering to just the required columns
+   -	NA values were dropped
+   -	Columns were re-named and the index reset
+   -	The cleaned dataframe was saved as a new csv
+
 <h4>3.	LGA Postcode mappings</h4>
-  -	Columns were re labelled
-  -	NA values were dropped
-  -	Duplicates were dropped
+-Data is preprocesses via **DataPreprocessingPostCodeLGA.ipynb**
+   -	Columns were re labelled
+   -	NA values were dropped
+   -	Duplicates were dropped
 
 <h3>Load</h3>
   
 Once the transformed csv’s were created, a database and the corresponding tables with the required columns were created using SQL in pgAdmin, after developing and mapping out the table schema. Confirmed data has been added by querying the customer_name table using `pd.read_sql_query('select * from customer_name', con=engine).head()`
 
-![picture alt](https://user-images.githubusercontent.com/87689345/139240930-76bc3a1e-a4d2-431b-b72f-69f0e725e51b.png)
+![picture alt]![image](https://user-images.githubusercontent.com/23230497/139362931-5f2d73df-3e30-4d26-805a-740607174b21.png)
 
 Attempts were subsequently made to join the loaded tables within the dataframe. However further work is required to execute this successfully. 
 
