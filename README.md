@@ -42,7 +42,7 @@ We have pre-processed data to make it load ready, as detailed below:
 
 <h3>Load</h3>
   
-Once the transformed csv’s were created, a database and the corresponding tables with the required columns were created using SQL in pgAdmin, after developing and mapping out the table schema. </br>
+Once the transformed csv’s were created, a database and the corresponding tables with the required columns were created using SQL in pgAdmin, after developing and mapping out the table schema. The final produced database is a relational database, with primary and secondary keys linking the tables.</br>
 All SQL queries can be found in Folder <b>sql_queries</b>.</br>
 Confirmed data has been added by querying the customer_name table using similar commands, e.g. </br> `select * from salaryLGA`
 
