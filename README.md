@@ -1,5 +1,5 @@
 # ETL Project – Technical Report #
-Project completed by analysts Huma Chaudry, Catherine Ting, Samir Barua and Ben Pickles
+Project completed by analysts Huma Chaudhry, Catherine Ting, Samir Barua and Ben Pickles
 
 The program will deliver a database enabling the comparison of school leaver destinations, whether that be further tertiary education or employment, with the relative wealth of that local government area (LGA); in this case characterised by median income. By linking school postcodes with the relevant LGA, we are able to form a connection between these two data sources which enables further exploration and comparison of these combined data sources.
 
