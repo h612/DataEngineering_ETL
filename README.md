@@ -43,8 +43,8 @@ We have pre-processed data to make it load ready, as detailed below:
 <h3>Load</h3>
   
 Once the transformed csv’s were created, a database and the corresponding tables with the required columns were created using SQL in pgAdmin, after developing and mapping out the table schema. </br>
-All SQL queries can be found in Folder <b>sql_queries</b>.
-Confirmed data has been added by querying the customer_name table using `pd.read_sql_query('select * from customer_name', con=engine).head()`
+All SQL queries can be found in Folder <b>sql_queries</b>.</br>
+Confirmed data has been added by querying the customer_name table using similar commands, e.g. </br> `select * from salaryLGA`
 
 ![image](https://user-images.githubusercontent.com/23230497/139362931-5f2d73df-3e30-4d26-805a-740607174b21.png)
 
