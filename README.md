@@ -9,17 +9,17 @@ The following process was undertaken to complete the ETL of this database.
 <h3>Extract:</h3>
 
 The following four CSV’s were extracted from sources as defined below. Please refer to the Raw Data folder for these documents. 
-1.	DestinationData2020.csv - https://www.education.vic.gov.au/about/research/pages/ontrack.aspx?Redirect=1
+1.	DestinationData2020.csv - Department of Education and Trainin https://www.education.vic.gov.au/about/research/pages/ontrack.aspx?Redirect=1
 
-2.	dv279-schoollocations2019.csv - www.education.vic.gov.au/Documents/about/research/datavic/dv279-schoollocations2019.csv
-3.	Australian LGA postcode mappings (2011 data).xlsx - https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.003July%202019?OpenDocument
-4.	salary.csv - https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/personal-income-australia/latest-release
+2.	dv279-schoollocations2019.csv - Department of Education and Trainin www.education.vic.gov.au/Documents/about/research/datavic/dv279-schoollocations2019.csv
+3.	Australian LGA postcode mappings (2011 data).xlsx - Australian Bureau of Statistics https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.003July%202019?OpenDocument
+4.	salary.csv - Australian Bureau of Statistics https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/personal-income-australia/latest-release
 
 <h3>Transform:</h3>
 We have pre-processed data to make it load ready, as detailed below:
 
 <h4>1.	DestinationData</h4>
--Data is preprocesses via **DataPreProcessing.ipynb**</br>
+-Data is preprocesses via <b>DataPreProcessing.ipynb</b></br>
   -	The unnecessary top 3 rows were dropped</br>
   -	Columns were relabeled appropriately</br>
   -	Unnecessary columns were dropped, as were rows at the top and bottom of the dataset which aren’t required (further headings and footnotes in csv)</br>
@@ -27,7 +27,7 @@ We have pre-processed data to make it load ready, as detailed below:
   -	The cleaned dataframe was saved as a new csv</br>
 
 <h4>2.	Salary</h4>
--Data is preprocesses via **DataPreProcessingSalary.ipynb**</br>
+-Data is preprocesses via <b>DataPreProcessingSalary.ipynb</b></br>
    -	Unnecessary rows at the top were removed and the 5th row was converted to the column headings. This row was then dropped. </br>
    -	Columns that were not required were removed by filtering to just the required columns</br>
    -	NA values were dropped</br>
@@ -35,7 +35,7 @@ We have pre-processed data to make it load ready, as detailed below:
    -	The cleaned dataframe was saved as a new csv</br>
 
 <h4>3.	LGA Postcode mappings</h4>
--Data is preprocesses via **DataPreprocessingPostCodeLGA.ipynb**</br>
+-Data is preprocesses via <b>DataPreprocessingPostCodeLGA.ipynb</b></br>
    -	Columns were re labelled</br>
    -	NA values were dropped</br>
    -	Duplicates were dropped</br>
